@@ -1,0 +1,54 @@
+
+<div data-role="popup" data-dismissible="false" id="popup-action-process" style="min-width: 290px">
+    <div data-role="header" role="banner"><a href="#" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right" data-rel="back">Close</a>
+        <h3 role="heading">Process Action</h3>
+    </div>
+
+    <div role="main" class="ui-content">
+        <a data-rel="back" class="ui-btn ui-corner-all">Action 1</a>
+        <a data-rel="back" class="ui-btn ui-corner-all">Action 2</a>
+        <a data-rel="back" class="ui-btn ui-corner-all">Action 3</a>
+        <a data-rel="back" class="ui-btn ui-corner-all">Action 4</a>
+    </div>
+</div>
+
+<div>
+    <%
+    _.each(processes, function(process) {
+    %>
+    <div data-role="listview" value="<%=process.id%>" class="list-process">
+
+        <div class="aProcess">
+            <div class="processHeader" processId="<%=process.id%>" expand="0">
+                <input class="xCheckbox" id="cb-<%=process.id%>"  type="checkbox" value="<%=process.id%>"/>
+                <span class="processType"><%= process.docs[0].pi_process_type_str%></span>
+                <span class="processDate"><%= process.docs[0].pi_eingangsdatum_date.substring(0, 10)%></span>
+                <span class="btn-processHeader ui-corner-all ui-icon-eye ui-btn-icon-notext" processId="<%=process.id%>">eye</span>
+            </div>
+            <div class="processDocuments" processId="<%=process.id%>">
+                <%
+                _.each(process.docs, function(document) {
+                %>
+                <div class="aDocument">
+                    <div class="documentDetails" process-id="<%=process.id%>" document-id="<%= document.document_id_str%>">
+                        <div class="documentType"><%= document.document_type_str%></div>
+                        <div class="documentIndexes">
+                            Creditor: <%= document.pi_mandant_str%>, Email: <%= document.email_str%>
+                            <!-- , Process_lifecycle_date: <%= document.pi_process_lifecycle_date%>, Process_lifecycle_start_date: <%= document.pi_process_lifecycle_start_date%> -->
+                        </div>
+                    </div>
+                    <div class="documentThumbnail" style="margin-right: 10px">
+                        <img style="float: right" class="metadatapdfthumbnail" linkPdf="https://wackler.oxseed.com/services/retrieve?object_id=<%= document.document_id_str%>&amp;mandant=wackler" src="https://wackler.oxseed.com/services/retrieve?object_id=<%= document.document_id_str%>&amp;mandant=wackler&amp;thumbnail=true">
+                    </div>
+                </div>
+                <%
+                });%>
+            </div>
+        </div>
+
+    </div>
+    <%
+    });%>
+    <div data-role="popup" id="popupPDFDocument" class="popupPDFDocument" data-tolerance="30,15" style="height: 400px;width: 100%">
+    </div>
+</div>

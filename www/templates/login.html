@@ -1,0 +1,31 @@
+<div data-role="header">
+    <h1>Oxseed Application</h1>
+</div>
+        <div class="oxseed-logo">
+            <div style="height:42px;width:229px; background: url('img/logo.png') no-repeat; margin: 40px auto;"></div>
+        </div>
+<div data-role="content">
+    <form id="loginForm">
+        <div>
+            <label for="username" data-i18n="UserName"></label>
+            <input type="text" name="username" id="username" value="thinh_ng" placeholder="Username" />
+        </div>
+
+        <div>
+            <label for="username" data-i18n="Password"> </label>
+            <input type="password" name="password" id="password" value="oxseed" placeholder="Password" />
+        </div>
+        <div>
+            <button id="submitButton" data-i18n="Login" class="ui-btn"></button>
+        </div>
+    </form>
+</div>
+<div data-role="popup" class="login-status-popup">
+    <div data-role="header" role="banner">
+    <h1 role="heading"> Error </h1>
+    </div>
+    <div data-role="content" class="ui-content" role="main">
+        <p>User/Pass is invalid</p>
+        <button data-role="button" data-inline="true" data-i18n="Okay"></button>
+    </div>
+</div>

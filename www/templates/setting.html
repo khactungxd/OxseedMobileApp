@@ -1,0 +1,40 @@
+<div data-role="collapsibleset" style="padding: 10px" class="setting">
+    <div data-role="collapsible" class="setting-language">
+        <h3></h3>
+        <div>
+            <form>
+                <fieldset data-role="controlgroup">
+                    <legend data-i18n="Selectlang"></legend>
+                    <input type="radio" name="language" id="radio-choice-1" value="de"/>
+                    <label data-i18n="Lang_DE" for="radio-choice-1">German</label>
+
+                    <input type="radio" name="language" id="radio-choice-2" value="en"/>
+                    <label data-i18n="Lang_EN" for="radio-choice-2">English</label>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div data-role="collapsible" class="setting-change-password">
+        <h3></h3>
+        <div>
+            <form id="changePasswordForm">
+                <label for="new-password" data-i18n="label.newPassword"></label>
+                <input type="password" id="new-password" class="required"/>
+                <label for="confirm-password" data-i18n="label.confirmPassword"></label>
+                <input type="password" id="confirm-password"/>
+                <label class="change-ps-status" style="color: red"></label>
+                <button data-mini="true" type="submit" id="save-new-password" data-i18n="button.save">Save</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div data-role="popup" class="setting-status-popup">
+    <!--<div data-role="header" role="banner">-->
+    <!--<h1 role="heading"></h1>-->
+    <!--</div>-->
+    <div data-role="content" class="ui-content" role="main">
+        <p popup-type=""></p>
+        <button data-role="button" data-inline="true">OK</button>
+    </div>
+</div>

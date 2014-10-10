@@ -1,0 +1,369 @@
+/********************************datepicker*********************************/
+.date-range-selected > .ui-state-active,
+.date-range-selected > .ui-state-default {
+    background: none lightsteelblue !important;
+    /*background-color: ;*/
+}
+
+.ui-datepicker {
+    position: absolute;
+    z-index: 2100;
+}
+
+button.ui-datepicker-current {
+    display: none;
+}
+
+h2 {
+    margin: 0px !important;
+}
+
+li {
+    padding: 0px !important;
+}
+
+/**************************************end datepicker*************************/
+
+/*******************          Custom themes         **************************/
+
+html .ui-page-theme-a .ui-bar-inherit {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F5F5F5), to(#B4B4B4)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(#F5F5F5, #B4B4B4); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(#F5F5F5, #B4B4B4); /* FF3.6 */
+    background-image: -ms-linear-gradient(#F5F5F5, #B4B4B4); /* IE10 */
+    background-image: -o-linear-gradient(#F5F5F5, #B4B4B4); /* Opera 11.10+ */
+    background-image: linear-gradient(#F5F5F5, #B4B4B4);
+}
+
+html .ui-page-theme-a .ui-header-fixed, .ui-footer-fixed {
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+html .ui-page-theme-a .ui-header-fixed {
+    top: -1px;
+    padding-top: 1px;
+}
+
+/*html .ui-page-theme-a .ui-btn{*/
+    /*color: #fff;*/
+    /*background-color: #5bc0de;*/
+    /*border-color: #46b8da;*/
+/*}*/
+
+/*html .ui-page-theme-a .ui-btn:hover {*/
+    /*color: #fff;*/
+    /*background-color: #31b0d5;*/
+    /*border-color: #269abc;*/
+/*}*/
+
+/*******************           End              ******************************/
+/************************   Custom loading    *******************************/
+.ui-loader-background {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+    position: fixed;
+    z-index: 2000;
+}
+
+.ui-loading .ui-loader-background {
+    display: block;
+}
+
+.archive-indent1 .ui-btn-icon-left:after {
+    left: 2% !important;
+}
+
+.archive-indent2 .ui-btn-icon-left:after {
+    left: 4% !important;
+}
+
+.archive-indent3 .ui-btn-icon-left:after {
+    left: 6% !important;
+}
+
+.archive-indent4 .ui-btn-icon-left:after {
+    left: 8% !important;
+}
+
+.archive-indent5 .ui-btn-icon-left:after {
+    left: 10% !important;
+}
+
+.archive-indent6 .ui-btn-icon-left:after {
+    left: 12% !important;
+}
+
+.archive-indent7 .ui-btn-icon-left:after {
+    left: 14% !important;
+}
+
+.archive-indent8 .ui-btn-icon-left:after {
+    left: 16% !important;
+}
+
+.archive-indent9 .ui-btn-icon-left:after {
+    left: 18% !important;
+}
+
+.archive-indent10 .ui-btn-icon-left:after {
+    left: 20% !important;
+}
+
+.archive-indent11 .ui-btn-icon-left:after {
+    left: 22% !important;
+}
+
+.archive-indent12 .ui-btn-icon-left:after {
+    left: 24% !important;
+}
+
+.archive-indent13 .ui-btn-icon-left:after {
+    left: 26% !important;
+}
+
+.archive-indent14 .ui-btn-icon-left:after {
+    left: 28% !important;
+}
+
+.archive-indent15 .ui-btn-icon-left:after {
+    left: 30% !important;
+}
+
+.archive-indent1 span {
+    margin-left: 2% !important
+}
+
+.archive-indent2 span {
+    margin-left: 4% !important
+}
+
+.archive-indent3 span {
+    margin-left: 6% !important
+}
+
+.archive-indent4 span {
+    margin-left: 8% !important
+}
+
+.archive-indent5 span {
+    margin-left: 10% !important
+}
+
+.archive-indent6 span {
+    margin-left: 12% !important
+}
+
+.archive-indent7 span {
+    margin-left: 14% !important
+}
+
+.archive-indent8 span {
+    margin-left: 16% !important
+}
+
+.archive-indent9 span {
+    margin-left: 18% !important
+}
+
+.archive-indent10 span {
+    margin-left: 20% !important
+}
+
+.archive-indent11 span {
+    margin-left: 22% !important
+}
+
+.archive-indent12 span {
+    margin-left: 24% !important
+}
+
+.archive-indent13 span {
+    margin-left: 26% !important
+}
+
+.archive-indent14 span {
+    margin-left: 28% !important
+}
+
+.archive-indent15 span {
+    margin-left: 30% !important
+}
+
+.archive-indent-last1 a span {
+    padding-left: 2% !important
+}
+
+.archive-indent-last2 a span {
+    padding-left: 4% !important
+}
+
+.archive-indent-last3 a span {
+    padding-left: 6% !important
+}
+
+.archive-indent-last4 a span {
+    padding-left: 8% !important
+}
+
+.archive-indent-last5 a span {
+    padding-left: 10% !important
+}
+
+.archive-indent-last6 a span {
+    padding-left: 12% !important
+}
+
+.archive-indent-last7 a span {
+    padding-left: 14% !important
+}
+
+.archive-indent-last8 a span {
+    padding-left: 16% !important
+}
+
+.archive-indent-last9 a span {
+    padding-left: 18% !important
+}
+
+.archive-indent-last10 a span {
+    padding-left: 20% !important
+}
+
+.archive-indent-last11 a span {
+    padding-left: 22% !important
+}
+
+.archive-indent-last12 a span {
+    padding-left: 24% !important
+}
+
+.archive-indent-last13 a span {
+    padding-left: 26% !important
+}
+
+.archive-indent-last14 a span {
+    padding-left: 28% !important
+}
+
+.archive-indent-last15 a span {
+    padding-left: 30% !important
+}
+
+.navButton {
+    display: inline !important;
+    width: 24% !important;
+    font-size: 80%;
+    padding: 2px 0px !important;
+    margin: 1px 0px !important;
+}
+
+/***********************  Process Screen ***********************/
+.process {
+    margin: 2px;
+    background: #eee;
+    padding: 5px;
+}
+
+.processCheckbox {
+    position: relative !important;
+    margin-top: 5px !important;
+}
+
+.ui-checkbox {
+    display: inline !important;
+    margin: 5px 0px !important;
+    left: 0px !important;
+    top: 15px;
+}
+
+.processType {
+    display: inline !important;
+}
+
+#custom-collapsible h4 {
+    background: #000000 !important;
+}
+
+.list-process .process-detail h6 a {
+    font-size: 14px !important;
+}
+
+.ui-collapsible {
+    margin: 0px !important;
+}
+
+.processHeader {
+    position: relative;
+    height: 30px;
+    background-color: #C1C1C1;
+    margin-bottom: 1px;
+    color: #000;
+}
+
+.processType {
+    position: absolute;
+    top: 5px;
+    left: 35px;
+}
+
+.processDate {
+    position: absolute;
+    top: 7px;
+    left: 180px;
+    font-size: 70%;
+}
+
+.btn-processHeader {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.processDocuments {
+    /*background-color:orange;*/
+    display: none;
+    min-height: 10px;
+}
+
+.aDocument {
+    position: relative;
+    height: 117px;
+    margin-left: 10px;
+    /*background-color: #eee;*/
+}
+
+.documentDetails {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 75%;
+}
+
+.documentType {
+    font-weight: bold;
+}
+
+.documentIndexes {
+    font-size: 80%;
+    height: 120px;
+    overflow: hidden;
+}
+
+.documentThumbnail {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 25%;
+    text-align: center;
+}

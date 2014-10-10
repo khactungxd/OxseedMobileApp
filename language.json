@@ -1,0 +1,4786 @@
+[
+  {
+    "name": {
+      "stringValue": "Actions"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Aktionen"
+    },
+    "en": {
+      "stringValue": "Actions"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "All"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Alle"
+    },
+    "en": {
+      "stringValue": "All"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Anrede"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Anrede"
+    },
+    "en": {
+      "stringValue": "Salutation"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Anschluss"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Anschluss"
+    },
+    "en": {
+      "stringValue": "Number"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Application"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Anwendung"
+    },
+    "en": {
+      "stringValue": "Application"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ApplicationPreference"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Anzeige-Einstellungen"
+    },
+    "en": {
+      "stringValue": "Display Preferences"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Approval"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "* Ich erteile die in der Datenschutzerklärung aufgeführten Einwilligungen in die Verarbeitung und Nutzung meiner Daten."
+    },
+    "en": {
+      "stringValue": "* I hereby grant consent to the processing and use of my data as listed in the Privacy Policy."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Arbeitskorbsliste"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Arbeitskorbliste"
+    },
+    "en": {
+      "stringValue": "Work Baskets List"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Archive"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Archive"
+    },
+    "en": {
+      "stringValue": "Archive"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Back"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Zurück"
+    },
+    "en": {
+      "stringValue": "Back"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Branche"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Branche"
+    },
+    "en": {
+      "stringValue": "Branch"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Cancel"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Abbrechen"
+    },
+    "en": {
+      "stringValue": "Cancel"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ChangeEmailSuccessInfo"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": " Ihre geänderte E-Mail-Adresse wurde bestätigt und in Ihrem Benutzerprofil gespeichert."
+    },
+    "en": {
+      "stringValue": "Your e-mail address has been successfully modified."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ChangePasswordSuccess"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Passwort wurde erfolgreich geändert."
+    },
+    "en": {
+      "stringValue": "You have successfully updated your password"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ChangeProfileSuccess"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Profil wurde erfolgreich geändert."
+    },
+    "en": {
+      "stringValue": "You have successfully updated your User Data"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Chat"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Chat"
+    },
+    "en": {
+      "stringValue": "Chat"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ChatUsers"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Chat Benutzer"
+    },
+    "en": {
+      "stringValue": "Chat users"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Chatrooms"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Chatrooms"
+    },
+    "en": {
+      "stringValue": "Chat rooms"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ChooseNewPassword"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Neues Passwort wählen"
+    },
+    "en": {
+      "stringValue": "Choose New Password"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Close"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Schließen"
+    },
+    "en": {
+      "stringValue": "Close"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "CloseApp"
+    },
+    "category": {
+      "stringValue": "t"
+    },
+    "de": {
+      "stringValue": "Anwendung schließen"
+    },
+    "en": {
+      "stringValue": "Close application"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "CloseTab"
+    },
+    "category": {
+      "stringValue": "t"
+    },
+    "de": {
+      "stringValue": "Reiter Schließen"
+    },
+    "en": {
+      "stringValue": "Close tab"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Combine"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Zusammenfuhren"
+    },
+    "en": {
+      "stringValue": "Combine"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Company"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Firma"
+    },
+    "en": {
+      "stringValue": "Company"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ConfirmationMessage"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Bestätigungsmeldung"
+    },
+    "en": {
+      "stringValue": "Confirmation Message"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Countrycode"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Land"
+    },
+    "en": {
+      "stringValue": "Country"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "CreateRoom"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Chatroom erstellen"
+    },
+    "en": {
+      "stringValue": "Create Room"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Createdby"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Erstellt von"
+    },
+    "en": {
+      "stringValue": "Created by"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Creationdate"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Erstellt am"
+    },
+    "en": {
+      "stringValue": "Creation date"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "DW"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "DW"
+    },
+    "en": {
+      "stringValue": "Extn."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "DataProtect"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Datenschutzerklärung"
+    },
+    "en": {
+      "stringValue": "Privacy Policy"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Description"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Beschreibung"
+    },
+    "en": {
+      "stringValue": "Description"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "DesktopSettings"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Desktop-Einstellungen"
+    },
+    "en": {
+      "stringValue": "Desktop Preferences"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Done"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Speichern"
+    },
+    "en": {
+      "stringValue": "Save"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "E-mail"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "E-Mail Adresse"
+    },
+    "en": {
+      "stringValue": "E-mail Address"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "E-mailReg"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "E-Mail Adresse *"
+    },
+    "en": {
+      "stringValue": "E-mail Address *"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "EditPasswordSuccessTitle"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Passwort wurde erfolgreich geändert. Bitte melden Sie sich neu an."
+    },
+    "en": {
+      "stringValue": "You have successfully updated your password, you can now log in!"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "EmailCommInfo"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Ja, ich möchte aktuelle Informationen von OXSEED per E-Mail erhalten. Dieser Einverständniserklärung kann ich zukünftig jederzeit widersprechen."
+    },
+    "en": {
+      "stringValue": "Yes, I would like to receive the latest OXSEED's Information per e-mail"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "EmailReg"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "E-Mail Adresse"
+    },
+    "en": {
+      "stringValue": "E-mail Address"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "EmployeeCount"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Anzahl Mitarbeiter"
+    },
+    "en": {
+      "stringValue": "Number of employees"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ErrorReport"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Ihre Sitzung ist abgelaufen."
+    },
+    "en": {
+      "stringValue": "Your Session has expired"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "First Page"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Erste Seite"
+    },
+    "en": {
+      "stringValue": "First Page"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "FolderSearch_FolderPath_Label"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Archivbereiche"
+    },
+    "en": {
+      "stringValue": "Your Areas"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "FolderSuche"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Archivübersicht"
+    },
+    "en": {
+      "stringValue": "Archive Overview"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "FooterInfo"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Pflichtfelder sind mit einem Stern (*) gekennzeichnet."
+    },
+    "en": {
+      "stringValue": "Fields marked with an asterisk (*) are required to complete the Registration"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ForgotPasswordHeader"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Bitte geben Sie Ihren Benutzernamen und Ihre E-Mail Adresse ein."
+    },
+    "en": {
+      "stringValue": "Please enter both your user name and your e-mail address!"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ForgotPasswordHeaderInfo"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Your old Password is no longer valid?"
+    },
+    "en": {
+      "stringValue": "Your old Password is no longer valid?"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ForgotPasswordSuccessInfo"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": " Wir senden Ihnen in Kürze eine E-Mail.Bitte überprüfen Sie Ihr E-Mail - Postfach und folgen Sie dem Link in der E-Mail, um ein neues Passwort zu setzen.Möchten Sie das Browserfenster schließen?"
+    },
+    "en": {
+      "stringValue": "We will send you an e-mail soon. Please verify and click the link to set a new Password. Do you want to close the Window?"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ForgotPasswordTitle"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Passwort vergessen?"
+    },
+    "en": {
+      "stringValue": "Forgot Password?"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ForgotPassword_PopupTitle"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Passwort vergessen"
+    },
+    "en": {
+      "stringValue": "Forgot Password"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Funktion"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Funktion"
+    },
+    "en": {
+      "stringValue": "Function"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "GeneralSettings"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Grundeinstellungen"
+    },
+    "en": {
+      "stringValue": "General Preferences"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "GotoRegister"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Registrieren"
+    },
+    "en": {
+      "stringValue": "Register"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "IndexMgt_ProcessType"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Vorgangstyp"
+    },
+    "en": {
+      "stringValue": "Process Type"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Indices"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Metadaten"
+    },
+    "en": {
+      "stringValue": "Meta data"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Interface"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Oberflächenfunktionen"
+    },
+    "en": {
+      "stringValue": "Interface"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "InvalidUserName"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Der Benutzername enthält ungültige Zeichen."
+    },
+    "en": {
+      "stringValue": "Invalid User Name."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Inviteuser"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Benutzer einladen"
+    },
+    "en": {
+      "stringValue": "Invite user"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Label_IntroductionDialog_Welcome"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Willkommen"
+    },
+    "en": {
+      "stringValue": "Welcome"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Lang_DE"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Deutsch"
+    },
+    "en": {
+      "stringValue": "German"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Lang_EN"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Englisch"
+    },
+    "en": {
+      "stringValue": "English"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Language"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Sprache"
+    },
+    "en": {
+      "stringValue": "Language"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Last Page"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Letzte Seite"
+    },
+    "en": {
+      "stringValue": "Last Page"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ListSize"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Anzahl der angezeigten Vorgänge pro Seite"
+    },
+    "en": {
+      "stringValue": "Amount of records to be displayed per Page"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "LoggedIn"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Online"
+    },
+    "en": {
+      "stringValue": "Logged in"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Login"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Anmelden"
+    },
+    "en": {
+      "stringValue": "Login"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Loginlabel"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Anmelden"
+    },
+    "en": {
+      "stringValue": "Login"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Logoff"
+    },
+    "category": {
+      "stringValue": "t"
+    },
+    "de": {
+      "stringValue": "Ausloggen"
+    },
+    "en": {
+      "stringValue": "Logout"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Mandatory"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Das Feld darf nicht leer sein."
+    },
+    "en": {
+      "stringValue": "cannot be empty!"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Metadaten"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Metadaten"
+    },
+    "en": {
+      "stringValue": "Meta data"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "NOT_AUTHENTICATED"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Ungültiger Login"
+    },
+    "en": {
+      "stringValue": "Invalid Login"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "NO_ITEMS_FOUND"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "[Keine Einträge gefunden]"
+    },
+    "en": {
+      "stringValue": "[No Items Found]"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Nachindizieren"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Nachindizieren"
+    },
+    "en": {
+      "stringValue": "Edit Indexes"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Nachname"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Nachname"
+    },
+    "en": {
+      "stringValue": "Lastname"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Name"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Name"
+    },
+    "en": {
+      "stringValue": "Name"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "NewPassword"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Neues Passwort"
+    },
+    "en": {
+      "stringValue": "New Password"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "NewRegistration"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Neu? Hier registrieren."
+    },
+    "en": {
+      "stringValue": "New? Register Here."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "NewTab"
+    },
+    "category": {
+      "stringValue": "t"
+    },
+    "de": {
+      "stringValue": "Neuen Reiter anlegen"
+    },
+    "en": {
+      "stringValue": "Add new tab"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "NewTabTitle"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Neuer Reiter"
+    },
+    "en": {
+      "stringValue": "New Tab"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Next Page"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Nächste Seite"
+    },
+    "en": {
+      "stringValue": "Next Page"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "NoDocumentsAvailable"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "No documents currently available to you"
+    },
+    "en": {
+      "stringValue": "No documents currently available to you"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Notiz"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Notiz"
+    },
+    "en": {
+      "stringValue": "Note"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Okay"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Ok"
+    },
+    "en": {
+      "stringValue": "OK"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "OrderInfo"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Ich möchte die kostenlose OXSEED Personal Edition bestellen"
+    },
+    "en": {
+      "stringValue": "I would like to order the free OXSEED Personal Edition"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Ort"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Ort"
+    },
+    "en": {
+      "stringValue": "City"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "OxseedGeneralHelp"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Hilfe"
+    },
+    "en": {
+      "stringValue": "Help"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "OxseedHelp"
+    },
+    "category": {
+      "stringValue": "t"
+    },
+    "de": {
+      "stringValue": "Hilfe"
+    },
+    "en": {
+      "stringValue": "Help"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "OxseedMinimizeTopArea"
+    },
+    "category": {
+      "stringValue": "t"
+    },
+    "de": {
+      "stringValue": "Kopfbereich minimieren"
+    },
+    "en": {
+      "stringValue": "Minimize Top Area"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "OxseedMinimizedTopArea"
+    },
+    "category": {
+      "stringValue": "t"
+    },
+    "de": {
+      "stringValue": "Kopfbereich wiederherstellen"
+    },
+    "en": {
+      "stringValue": "Restore Top Area"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "OxseedSettings"
+    },
+    "category": {
+      "stringValue": "t"
+    },
+    "de": {
+      "stringValue": "Einstellungen"
+    },
+    "en": {
+      "stringValue": "Preferences"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "OxseedSuche"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Suche"
+    },
+    "en": {
+      "stringValue": "Search"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Password"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Passwort"
+    },
+    "en": {
+      "stringValue": "Password"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "PasswordEquals"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Das zur Bestätigung eingegebene Passwort entspricht nicht der ersten Eingabe."
+    },
+    "en": {
+      "stringValue": "Second typed Password does not match the first one!"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "PasswordReg"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Passwort"
+    },
+    "en": {
+      "stringValue": "Password"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "PasswordStrength"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Sicherheit"
+    },
+    "en": {
+      "stringValue": "Strength"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Patent"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "© 2007-{currentYear} Maas Holding GmbH, alle Rechte vorbehalten"
+    },
+    "en": {
+      "stringValue": "Copyright © 2007-{currentYear} Maas Holding GmbH, Germany. All rights reserved."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Pdf"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Anzeige"
+    },
+    "en": {
+      "stringValue": "PDF document viewer"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Plz"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "PLZ"
+    },
+    "en": {
+      "stringValue": "Zip"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Previous Page"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Vorige Seite"
+    },
+    "en": {
+      "stringValue": "Previous Page"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ProcessDocumentView"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Vorgangsansicht"
+    },
+    "en": {
+      "stringValue": "Process/document type"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ProfileData"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Benutzerdaten"
+    },
+    "en": {
+      "stringValue": "Profile Data"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Reference"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Empfehlung durch"
+    },
+    "en": {
+      "stringValue": "Recommended by"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Refresh"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Aktualisieren"
+    },
+    "en": {
+      "stringValue": "Refresh"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "RegisterEESuccessInfo"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "The registration process was successfully completed. You will soon receive an e-mail about the next step."
+    },
+    "en": {
+      "stringValue": "The registration process was successfully completed. You will soon receive an e-mail about the next step."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "RegisterSuccessInfo"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": " Der Registrierungsprozess wurde erfolgreich eingeleitet. Sie werden demnächst per E-Mail über den nächsten Schritt informiert."
+    },
+    "en": {
+      "stringValue": "The registration process has been initiated successfully. You will soon receive an e-mail about the next step."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "RegisterSuccessTitle"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Sie haben sich erfolgreich bei OXSEED registriert. Bitte überprüfen Sie Ihr E-Mail-Postfach und bestätigen Sie Ihre E-Mail-Adresse."
+    },
+    "en": {
+      "stringValue": "You have registered successfully!"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Registerpage1Title"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Schritt 1 von 2"
+    },
+    "en": {
+      "stringValue": "Page 1 of 2"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Registerpage2Title"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Schritt 2 von 2"
+    },
+    "en": {
+      "stringValue": "Page 2 of 2"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Remind"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Remind"
+    },
+    "en": {
+      "stringValue": "Remind"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Reset"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Zurücksetzen"
+    },
+    "en": {
+      "stringValue": "Reset"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Restart"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Neustart"
+    },
+    "en": {
+      "stringValue": "Restart"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "RetypePassword"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Passwort wiederholen"
+    },
+    "en": {
+      "stringValue": "Retype Password"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Room"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Chatroom"
+    },
+    "en": {
+      "stringValue": "Room"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "SavedSearch"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Gespeicherte Suche"
+    },
+    "en": {
+      "stringValue": "Saved Search"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "SecurityExplanation"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Impressum"
+    },
+    "en": {
+      "stringValue": "Legal Notice"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "SeedApplicationSettings"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Seed- und Anwendungseinstellungen"
+    },
+    "en": {
+      "stringValue": "Seed and Application Preferences"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "SeedSettings"
+    },
+    "category": {
+      "stringValue": "t"
+    },
+    "de": {
+      "stringValue": "Einstellungen"
+    },
+    "en": {
+      "stringValue": "Seed Preferences"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Select_All"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Alle auswählen"
+    },
+    "en": {
+      "stringValue": "Select all"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Selectlang"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Bitte wählen Sie eine Sprache aus"
+    },
+    "en": {
+      "stringValue": "Select a Language"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "SessionTimeout"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Ihre Verbindung zu OXSEED wurde aus Sicherheitsgründen getrennt. Bitte melden Sie sich erneut an."
+    },
+    "en": {
+      "stringValue": "Your Session has timed out or been disconnected for security reasons. Please log in again."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Skype"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Skype ID"
+    },
+    "en": {
+      "stringValue": "Skype Name"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Split"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Trennen"
+    },
+    "en": {
+      "stringValue": "Split"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Status"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Status"
+    },
+    "en": {
+      "stringValue": "Status"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Street"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Straße und Hausnr."
+    },
+    "en": {
+      "stringValue": "Street"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Submit"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Absenden"
+    },
+    "en": {
+      "stringValue": "Submit"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Suche"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Suche"
+    },
+    "en": {
+      "stringValue": "Search"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "TabAppMenu"
+    },
+    "category": {
+      "stringValue": "t"
+    },
+    "de": {
+      "stringValue": "Menü"
+    },
+    "en": {
+      "stringValue": "Menu"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "TabSettings"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Reiter-Einstellungen"
+    },
+    "en": {
+      "stringValue": "Tab Preferences"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Telefone"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Telefon"
+    },
+    "en": {
+      "stringValue": "Phone"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Telephone"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Telefon"
+    },
+    "en": {
+      "stringValue": "Telephone"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Tenant"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Mandant"
+    },
+    "en": {
+      "stringValue": "Tenant"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Terms"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Nutzungsbedingungen"
+    },
+    "en": {
+      "stringValue": "Terms and Conditions of Use"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "TermsInfo"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "* Ich akzeptiere die Nutzungs-bedingungen."
+    },
+    "en": {
+      "stringValue": "* I accept the Terms and Conditions of Use"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Title"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Titel"
+    },
+    "en": {
+      "stringValue": "Title"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "TooManyResults"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Ihre Suchanfrage liefert zu viele Treffer. Bitte grenzen Sie die Suche weiter ein."
+    },
+    "en": {
+      "stringValue": "The Search results in too many documents. Please redefine your search."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "TooManyResultsArchive"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Das Ergebnis umfasst mehr als 10.000 Einträge. Bitte wählen Sie den gewünschten untergeordneten Pfad."
+    },
+    "en": {
+      "stringValue": "There are more than 10.000 matches available. Please make your choice from the existing subordinate folders."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Topic"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Thema"
+    },
+    "en": {
+      "stringValue": "Topic"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Type"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Typ"
+    },
+    "en": {
+      "stringValue": "Type"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "TypeAndChoose"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Name angeben..."
+    },
+    "en": {
+      "stringValue": "Type and choose..."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Unselect_All"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Keine auswählen"
+    },
+    "en": {
+      "stringValue": "Unselect all"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "UserName"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Benutzername"
+    },
+    "en": {
+      "stringValue": "User name"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Username"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Benutzername"
+    },
+    "en": {
+      "stringValue": "User Name"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Vorname"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Vorname"
+    },
+    "en": {
+      "stringValue": "Firstname"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Vorwahl"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Vorwahl"
+    },
+    "en": {
+      "stringValue": "Area"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Website"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Webseite"
+    },
+    "en": {
+      "stringValue": "Website"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Weiter"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Weiter"
+    },
+    "en": {
+      "stringValue": "Next"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "Workbaskets"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Arbeitskörbe"
+    },
+    "en": {
+      "stringValue": "Work Baskets"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "actionColumnName"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Aktion"
+    },
+    "en": {
+      "stringValue": "Action"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "addApplicationToNewTab"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Anwendung auf einem neuem Reiter öffnen."
+    },
+    "en": {
+      "stringValue": "Add application to new tab"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "addingToNonEmptyTab"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Beim Öffnen einer Anwendung auf einem Reiter mit vorhandener Anwendung:"
+    },
+    "en": {
+      "stringValue": "Adding application to a non-empty tab"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "allSelected"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Alle ausgewählt"
+    },
+    "en": {
+      "stringValue": "All selected"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "applicationAlreadyOnTab"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Auf dem aktuellen Reiter ist bereits eine Anwendung geöffnet. Was möchten Sie tun?"
+    },
+    "en": {
+      "stringValue": "There is already an application on current tab. What do you want to do?"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "archivefolders"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Archivbereiche"
+    },
+    "en": {
+      "stringValue": "Archivefolders"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "blocked"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "geblockt"
+    },
+    "en": {
+      "stringValue": "blocked"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "cancel"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Abbrechen"
+    },
+    "en": {
+      "stringValue": "Cancel"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "clear_remind"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Clear Remind"
+    },
+    "en": {
+      "stringValue": "Clear Remind"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "collapse"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "schließen"
+    },
+    "en": {
+      "stringValue": "collapse"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "combine_invalid"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "You must choose two or more processes."
+    },
+    "en": {
+      "stringValue": "You must choose two or more processes."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "confirm_title_loschen_popup"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Löschen"
+    },
+    "en": {
+      "stringValue": "Delete"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "date"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Datum"
+    },
+    "en": {
+      "stringValue": "Date"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "delete"
+    },
+    "category": {
+      "stringValue": "t"
+    },
+    "de": {
+      "stringValue": "Löschen"
+    },
+    "en": {
+      "stringValue": "Delete"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "dropHistMenu"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Notiz anzeigen"
+    },
+    "en": {
+      "stringValue": "Display Note"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "enterTextHere"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Verfassen Sie Ihre Nachricht hier..."
+    },
+    "en": {
+      "stringValue": "Enter message text here..."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "events"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Veranstaltungen"
+    },
+    "en": {
+      "stringValue": "Events"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "expand"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "öffnen"
+    },
+    "en": {
+      "stringValue": "expand"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "feedback_connection_error"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Das Feedback-Forum steht zur Zeit nicht zur Verfügung, bitte versuchen Sie es später erneut oder wenden Sie sich an unser Support-Team. Vielen Dank."
+    },
+    "en": {
+      "stringValue": "Feedback-Forum is currently unavailable, please try later or contact our support team. Thank you."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "feedbackforum"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Feedback"
+    },
+    "en": {
+      "stringValue": "Feedback"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "hide"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Haut"
+    },
+    "en": {
+      "stringValue": "Hide"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "history"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Protokoll"
+    },
+    "en": {
+      "stringValue": "History"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "label"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Etikett"
+    },
+    "en": {
+      "stringValue": "Label"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "loggedin"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "online"
+    },
+    "en": {
+      "stringValue": "logged in"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "loggedoff"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "offline"
+    },
+    "en": {
+      "stringValue": "logged off"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "maximize"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Maximieren"
+    },
+    "en": {
+      "stringValue": "Maximize"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "menuview"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Anwendungen"
+    },
+    "en": {
+      "stringValue": "Applications"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "mr"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Herr"
+    },
+    "en": {
+      "stringValue": "Mr."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "mrs"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Frau"
+    },
+    "en": {
+      "stringValue": "Mrs."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "no_app_availible"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Keine Anwendung für Ihre Benutzerrolle vorhanden"
+    },
+    "en": {
+      "stringValue": "No application available that fits to your user's role"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "no_search_executed"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Keine Suche ausgeführt"
+    },
+    "en": {
+      "stringValue": "No search executed"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "no_search_results"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Keine Einträge gefunden"
+    },
+    "en": {
+      "stringValue": "No matches found"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "noneSelected"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Keine ausgewählt"
+    },
+    "en": {
+      "stringValue": "None selected"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "not_equal_passwords"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Not equal passwords"
+    },
+    "en": {
+      "stringValue": "Not equal passwords"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "ok"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Ok"
+    },
+    "en": {
+      "stringValue": "Ok"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "old_password_is_invalid"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Old password is invalid"
+    },
+    "en": {
+      "stringValue": "Old password is invalid"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "onlineinchat"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Online und derzeit um Chatroom"
+    },
+    "en": {
+      "stringValue": "Logged in and currently in chat room"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "open"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Öffnen"
+    },
+    "en": {
+      "stringValue": "Open"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "password_left"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Passwort ändern"
+    },
+    "en": {
+      "stringValue": "Change Password"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "private"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Privat"
+    },
+    "en": {
+      "stringValue": "Private"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "prompt"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Immer Nachfragen."
+    },
+    "en": {
+      "stringValue": "Prompt"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "public"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Öffentlich"
+    },
+    "en": {
+      "stringValue": "Public"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "rememberMyDecision"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Diese Entscheidung merken (kann jederzeit in den Einstellungen wieder geändert werden)"
+    },
+    "en": {
+      "stringValue": "Remember my decision (can be changed later in preferences)"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "remove"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Entfernen"
+    },
+    "en": {
+      "stringValue": "Remove"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "replaceApplicationOnThisTab"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Anwendung auf diesem Reiter ersetzen."
+    },
+    "en": {
+      "stringValue": "Replace application on current tab"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "resize"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Größe ändern"
+    },
+    "en": {
+      "stringValue": "resize"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "searchCriteria"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Suchbegriffe"
+    },
+    "en": {
+      "stringValue": "Search criteria"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "selected"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "ausgewählt"
+    },
+    "en": {
+      "stringValue": "selected"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "sendBtn"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Senden"
+    },
+    "en": {
+      "stringValue": "Send"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "send_back"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Wiedervorlage"
+    },
+    "en": {
+      "stringValue": "Send Back"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "send_email"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Konfiguration Speditionsbescheinigungen"
+    },
+    "en": {
+      "stringValue": "Configuration shipping certificates"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "serverIsNotAvailable"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Server ist derzeit nicht verfügbar."
+    },
+    "en": {
+      "stringValue": "Server is currently not available. Please try again later."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "showMultipleDialogs"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Notiz, PDF, Meta-Daten mehrer Vorgänge gleichzeitig anzeigen."
+    },
+    "en": {
+      "stringValue": "Show notices, pdf, meta-data of more than one processes contemporarily."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "split_doc_invalid"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Process must have two documents."
+    },
+    "en": {
+      "stringValue": "Process must have two documents."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "split_proc_invalid"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "You must choose only one process type with two or more documents."
+    },
+    "en": {
+      "stringValue": "You must choose only one process type with two or more documents."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "themes"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Themes"
+    },
+    "en": {
+      "stringValue": "Themes"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "type"
+    },
+    "category": {
+      "stringValue": "m"
+    },
+    "de": {
+      "stringValue": "Typ"
+    },
+    "en": {
+      "stringValue": "Type"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "verfifyDocumentList"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Dokument"
+    },
+    "en": {
+      "stringValue": "Documents"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "verfifyProcessList"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Vorgang"
+    },
+    "en": {
+      "stringValue": "Process"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "welcome"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Willkommen"
+    },
+    "en": {
+      "stringValue": "Welcome"
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882212"
+    },
+    "timestamp": {
+      "integerValue": "1408522882212"
+    }
+  },
+  {
+    "name": {
+      "stringValue": "willkommen"
+    },
+    "category": {
+      "stringValue": "l"
+    },
+    "de": {
+      "stringValue": "Willkommen {Benutzername} Wenn Sie Ihr OXSEED auf Ihre persönlichen Bedürfnisse einstellen möchten, dann hilft Ihnen unser Archivassistent. Rufen Sie Ihn hier auf: Archivassistent. Sie können aber auch OXSEED direkt verwenden, ohne es vorher einrichten zu müssen. Wenn Sie Hilfe bei der Benutzung von OXSEED benötigen, dann klicken Sie bitte auf das Icon mit dem Fragezeichen."
+    },
+    "en": {
+      "stringValue": "Welcome {Benutzername} If you want to adjust OXSEED to your needs, then please use OXSEED's Wizard. Click here to start it! You can also use OXSEED directly without having to set anything up. If you need help, please click on a question mark icon or a documentation link."
+    },
+    "lastUpdater": {
+      "stringValue": "userid"
+    },
+    "applyingDate": {
+      "integerValue": "1408522882211"
+    },
+    "timestamp": {
+      "integerValue": "1408522882211"
+    }
+  }
+]

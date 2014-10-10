@@ -1,0 +1,52 @@
+<style>
+    /*ul li h2{*/
+        /*margin: 0px;*/
+        /*padding: 0px;*/
+    /*}*/
+    #folder-tree{
+
+    }
+
+    .archive-indent{
+        position:absolute;
+    }
+
+</style>
+<ul data-role="listview" id="ul-folder-tree">
+    <li data-role="collapsible" data-iconpos="left">
+
+        <h2 class="archive-indent1">
+            <span>
+                Your Areas
+            </span>
+        </h2>
+        <ul data-role="listview" id="folder-tree">
+            <%
+            var bindTag = function (object, path, indent) {
+            for(var key in object) {
+            if(Object.keys(object[key]).length == 0){%>
+            <li class="archive-indent-last<%=indent%> archive-indent">
+                <a my-path="<%=path+key%>" data-inset="true" >
+                                <span>
+                                    <%=key%>
+                                </span>
+                </a>
+            </li>
+            <%} else {
+            path = path+key+"/"%>
+            <li data-role="collapsible" data-iconpos="left" data-inset="false">
+                <h2 class="archive-indent<%=indent+1%>">
+                    <span><%=key%></span>
+                </h2>
+                <ul data-role="listview">
+                    <%bindTag(object[key], path, indent+1)%>
+                </ul>
+            </li>
+            <%  }
+            }
+            }
+            bindTag(folderTree, "/", 1);
+            %>
+        </ul>
+    </li>
+</ul>

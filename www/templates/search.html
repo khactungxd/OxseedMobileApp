@@ -1,0 +1,88 @@
+<div data-role="content">
+    <form id="search-form">
+        <fieldset class="ui-grid-a">
+            <label data-i18n="ProcessDocumentView"></label>
+            <input type="submit" class="choose-type" data-type="button" value="Choose types">
+
+            <div data-role="popup" class="process-document-types" data-dismissible="false" style="width: 300px">
+                <div data-role="header" role="banner"><a href="#" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right" data-rel="back">Close</a>
+                    <h3 role="heading" style="width: 150px;margin: 0 20%">Process/Document</h3>
+                </div>
+
+
+                <div data-role="content">
+                    <ul data-role="listview" data-divider-theme="b" data-inset="true" style="min-width:210px;">
+                        <!--<li data-role="list-divider" role="heading">steuernachweis</li>-->
+                        <!--<li><a href="#" class="ui-btn ui-checkbox-off ui-btn-icon-right">spediteurbescheinigung</a></li>-->
+                    </ul>
+                </div>
+
+            </div>
+        </fieldset>
+
+        <fieldset class="eingangsrechnung-option" id="search-datetime">
+            <div id="pi_eingangsdatum_date">
+                <label for="pi_eingangsdatum_date-input">Date of receipt</label>
+                <input id="pi_eingangsdatum_date-input"/>
+
+                <div class="pi_eingangsdatum_date"></div>
+            </div>
+            <div id="pi_process_lifecycle_start_date">
+                <label>Process lifecycle start</label>
+                <input/>
+
+                <div class="pi_process_lifecycle_start_date"></div>
+            </div>
+            <div id="pi_process_lifecycle_date">
+                <label>Process lifecycle</label>
+                <input/>
+
+                <div class="pi_process_lifecycle_date"></div>
+            </div>
+        </fieldset>
+
+        <fieldset id="info-search-extension">
+            <div>
+                <label for="auftrag_str">Auftrag</label>
+                <input type="text" id="auftrag_str"/>
+            </div>
+            <div>
+                <label for="auftraggeber_str">Auftraggeber</label>
+                <input type="text" id="auftraggeber_str"/>
+            </div>
+
+            <div id="bescheinigung_date">
+                <label>Bescheinigung date</label>
+                <input/>
+
+                <div class="bescheinigung_date"></div>
+            </div>
+            <div>
+                <label for="email_str">Email</label>
+                <input type="text" id="email_str"/>
+            </div>
+
+            <div>
+                <label for="referenz_str">Referenz</label>
+                <input type="text" id="referenz_str"/>
+            </div>
+
+        </fieldset>
+        <fieldset class="ui-grid-a">
+            <label for="save-info-search">Saved search</label>
+            <input type="submit" id="save-info-search" data-type="button" value="Manage saved search">
+
+            <div data-role="popup" data-dismissible="false" class="manager-criteria">
+                <div data-role="header" role="banner"><a href="#" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right" data-rel="back">Close</a>
+                    <h3 role="heading" style="width: 150px;margin: 0 20%">Saved Search</h3>
+                </div>
+                <div data-role="content" role="main">
+                    <ul role="listbox" class="ui-selectmenu-list ui-listview" data-filter="true" style="min-width:210px;">
+                        <li style='display:block !important;'><a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left btn-add">add</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </fieldset>
+    </form>
+</div>

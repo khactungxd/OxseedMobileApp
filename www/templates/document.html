@@ -1,0 +1,54 @@
+<style>
+    .index-key{
+        width: 20%;
+    }
+
+    .index-value{
+        width: 50%;
+    }
+    .index-button {
+        display: inline !important;
+        width:20% !important;
+        font-size:80%;
+        padding: 2px 0px !important;
+        margin: 1px 0px !important;
+        float: right;
+    }
+    .btn-info{
+        position:absolute;
+        right: 10px;
+        top: 20px;
+        width: 20px;
+        height: 20px;
+    }
+</style>
+
+<div data-role="header" class="document-header" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
+    <div>
+        <h1 class="ui-title" role="heading" aria-level="1">Document</h1>
+        <a data-role="button" data-icon="back" class="ui-btn-left" id="document-back">Back</a>
+        <span class="btn-info ui-corner-all ui-icon-info ui-btn-icon-notext"></span>
+    </div>
+</div>
+<div id="index-content">
+    <ul data-role="listview">
+       <%
+        _.each(document, function(value, key){
+       %>
+        <li>
+            <div>
+                <!--<span class="index-key"><%= key%>:</span>-->
+                <!--<span class="index-value"><%= value%></span>-->
+                <span class="index-key">Index:</span>
+                <span class="index-value">Values abc xyz</span>
+                <button class="index-button">Change</button>
+            </div>
+        </li>
+        <%
+        });
+        %>
+    </ul>
+</div>
+<div data-role="footer">
+
+</div>
