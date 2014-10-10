@@ -72,11 +72,7 @@ app.get("/oxseed/index/:stag/oxseedQuery",function(req, res){
       "Authorization" : req.headers["authorization"]
     }
   }, function (error, response, body){
-    console.log(error);
-    console.log(response.statusCode);
-    console.log(body);
-    res.set('Content-Type', 'application/json');
-    res.send(body);
+    res.send(response.statusCode, body);
   })
 });
 

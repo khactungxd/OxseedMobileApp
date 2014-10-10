@@ -196,3 +196,10 @@ function checkScreenLevel(level) {
   }
   return sameLevel;
 }
+
+function processError(model, response, options){
+  if(response.status == 401){
+    alert("Your account logged by different device");
+    userModel.destroy({success : function(){location.href = "";}});
+  }
+}

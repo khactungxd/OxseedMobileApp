@@ -6,7 +6,6 @@ window.ProcessListView = AbstractView.extend({
 
   },
 
-  parameterList: new ParameterToGetProcessListModel(),
   processList: new ProcessListModel(),
   documentDetail: new DocumentDetailModel(),
 

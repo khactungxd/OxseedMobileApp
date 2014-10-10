@@ -1,7 +1,6 @@
 window.ArchiveView = AbstractView.extend({
   treeModel: new FolderTreeModel(),
   processList: new ProcessListModel(),
-  parameter: new ParameterToGetProcessListModel(),
 
   id: "archive-screen",
 
@@ -19,7 +18,7 @@ window.ArchiveView = AbstractView.extend({
     this.appBody = _.template(Template.get("archive"));
     var thisScreen = this;
     this.listenTo(this.treeModel, "sync", this.onPageShown);
-    this.listenTo(this.parameter, "change", this.switchToProcesslistPage);
+    this.listenTo(this.treeModel, "error", processError);
     $(document).on("click", "#archive-screen .open-app-popup-menu", this.clkOpenMenu);
   },
 
@@ -61,13 +60,11 @@ window.ArchiveView = AbstractView.extend({
     });
   },
 
-
   showFolderTree: function (folderTree) {
     this.setBodyWithHtml(this.appBody(folderTree));
     $.mobile.loading("hide");
     this.effectForCollapsible();
   },
-
 
 // --------------------------------------------   Process event click view--------------------------------
   clkChooseProcess: function (e) {
