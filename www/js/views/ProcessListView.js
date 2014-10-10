@@ -23,7 +23,8 @@ window.ProcessListView = AbstractView.extend({
 
   initialize: function () {
     this.constructor.__super__.initialize.apply(this);
-    this.processList.on("sync", this.showProcessList, this);
+    this.listenTo(this.processList, "sync", this.showProcessList);
+    this.listenTo(this.processList, "error", processError);
     this.checkbox_being_clicked = false;
     this.eye_btn_clicked = false;
   },
@@ -57,7 +58,8 @@ window.ProcessListView = AbstractView.extend({
     this.processList.fetch({
       data: thisScreen.params,
 //      headers: {"X-SOLERA-AUTH-TOKEN": "f11cc6b0cfda7676915dea229a0d4a65e3b1573700ca85a9aacd6e0b0615edbd"
-      headers: {"Authorization": userModel.getAuthorization()}
+      headers: {"Authorization": userModel.getAuthorization()},
+      timeout : 1000
     });
   },
 
@@ -66,7 +68,7 @@ window.ProcessListView = AbstractView.extend({
     var arrAvailableFieldsOfDocuments = process.responseHeader.availableFields;
     var arrListProcesses = process.response.processes;
     var arrListProcessOfDocuments = [];
-    if (arrListProcesses.length > 0) {
+    if (process.response.processes && arrListProcesses.length > 0) {
       for (var j = 0; j < arrListProcesses.length; j++) {
         var processOb = {};
         processOb.id = arrListProcesses[j].process_id;

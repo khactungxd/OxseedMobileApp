@@ -32,7 +32,7 @@ window.ArchiveView = AbstractView.extend({
     ]});
 //    this.setFooterWithHtml('<h1 class="ui-title"></h1>' +
 //      '<span class="ui-btn-left ui-corner-all ui-icon-refresh ui-btn-icon-notext" id="archive-refresh"></span>');
-    this.setFooterWithHtml('<a style="margin: 5px 50px;" href="#" data-role="button" data-icon="refresh" id="archive-refresh">Refresh</a>');
+    this.setFooterWithHtml('<a style="margin: 5px 5px;" href="#" data-role="button" data-icon="refresh" id="archive-refresh">Refresh</a>');
   },
 
   loadContentPage: function () {

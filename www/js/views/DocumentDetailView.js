@@ -8,6 +8,7 @@ window.DocumentDetailView = Backbone.View.extend({
 
   initialize: function() {
     this.listenTo(this.document, "sync", this.onPageShown);
+    this.listenTo(this.document, "error", processError);
   },
 
   render: function() {

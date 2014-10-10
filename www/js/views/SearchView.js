@@ -16,7 +16,9 @@ window.SeachView = AbstractView.extend({
     this.constructor.__super__.initialize.apply(this);
     this.listenTo(this.collection, "reset", this.addAllSavedSearch);
     this.listenTo(this.collection, "add", this.addOneSavedSearch);
+    this.listenTo(this.collection, "error", processError);
     this.listenTo(this.processModel, "sync", this.showProcessType);
+    this.listenTo(this.processModel, "error", processError);
     $(document).on("click", "#search-screen .open-app-popup-menu", this.clkOpenMenu);
   },
 
@@ -28,7 +30,7 @@ window.SeachView = AbstractView.extend({
       {href: "#setting", text: "Setting"},
       {"href" : "#logout",text : "Logout"}
     ]});
-    this.setFooterWithHtml('<a style="margin: 5px 50px;" href="#" data-role="button" data-icon="search" id="search">Search</a>');
+    this.setFooterWithHtml('<a style="margin: 5px 5px;" href="#" data-role="button" data-icon="search" id="search">Search</a>');
     this.appBody = _.template(Template.get("search"));
     this.setBodyWithHtml(this.appBody());
 

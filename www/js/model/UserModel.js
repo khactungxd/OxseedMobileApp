@@ -4,7 +4,6 @@ window.UserModel = Backbone.Model.extend({
 
   defaults: function () {
     return {
-      id: 0,
       username: "",
       password: "",
       isAuth: false
