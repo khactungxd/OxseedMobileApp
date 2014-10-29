@@ -111,7 +111,19 @@ var AppRouter = Backbone.Router.extend({
 });
 
 $(document).ready(function () {
+  // append custom loading to body
   $('body').append("<div class='ui-loader-background'> </div>");
+  // init FastClick
+  FastClick.attach(document.body);
+  // extend jqm type=date to datebox
+  $.extend(jQuery.mobile.datebox.prototype.options,
+    {
+      useClearButton: true,
+      overrideDateFormat: "%d.%m.%Y",
+      defaultValue: "*"
+    }
+  );
+  // check run app on device or browser
   if (document.URL.indexOf("http://") === -1 && document.URL.indexOf("https://") === -1) {
     document.addEventListener("deviceready", function () {
       document.addEventListener("backbutton", function () {
@@ -127,7 +139,9 @@ $(document).ready(function () {
 function onDeviceReady() {
   var templates = ["login", "search", "archive", "processlist", "setting", "placeholder", "document"];
   $.mobile.loading("show");
+  // Load template
   Template.loadTemplates(templates, function () {
+    // Load language
     $.ajax({
       method : "GET",
       url : HOSTNAME+"/oxseed/cs/translations",
@@ -136,6 +150,7 @@ function onDeviceReady() {
         window.localStorage.setItem("oxseed_translations",JSON.stringify(body));
         initLanguage();
         $.mobile.loading("hide");
+        // Init and start Backbone router
         appRouter = new AppRouter();
         Backbone.history.start();
       }
@@ -201,5 +216,9 @@ function processError(model, response, options){
   if(response.status == 401){
     alert("Your account logged by different device");
     userModel.destroy({success : function(){location.href = "";}});
+  }
+  if(response.status == 0){
+    alert("Can't connect to server");
+    $.mobile.loading("hide");
   }
 }

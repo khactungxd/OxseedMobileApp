@@ -34,7 +34,6 @@ window.UserModel = Backbone.Model.extend({
       error: function (e) {
         //interpret error
         userModel.save();
-//        navigatorWithBackButton();
       }
     });
 
@@ -91,7 +90,7 @@ window.UserModel = Backbone.Model.extend({
       type: "POST",
       url: AUTHENTICATION + "/oxseed/cs/password/" + thisModel.get("username"),
       headers: {
-        "Authorization": thisModel.get("token_type") + " " + thisModel.get("access_token")
+        "Auth": thisModel.get("token_type") + " " + thisModel.get("access_token")
       },
       data: dataRequest,
       success: function (body, status, xhr) {
@@ -105,4 +104,4 @@ window.UserModel = Backbone.Model.extend({
   }
 });
 
-var userModel = new UserModel({id: 0});
+var userModel = new UserModel({id : 0});

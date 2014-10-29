@@ -55,7 +55,7 @@ window.ArchiveView = AbstractView.extend({
       reset: true,
       beforeSend: function (xhr) {
 //        xhr.setRequestHeader('X-SOLERA-AUTH-TOKEN', "f11cc6b0cfda7676915dea229a0d4a65e3b1573700ca85a9aacd6e0b0615edbd");
-        xhr.setRequestHeader('Authorization', userModel.getAuthorization());
+        xhr.setRequestHeader('Auth', userModel.getAuthorization());
       }
     });
   },

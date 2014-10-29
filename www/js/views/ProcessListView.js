@@ -58,17 +58,21 @@ window.ProcessListView = AbstractView.extend({
     this.processList.fetch({
       data: thisScreen.params,
 //      headers: {"X-SOLERA-AUTH-TOKEN": "f11cc6b0cfda7676915dea229a0d4a65e3b1573700ca85a9aacd6e0b0615edbd"
-      headers: {"Authorization": userModel.getAuthorization()},
-      timeout : 1000
+      headers: {"Auth": userModel.getAuthorization()},
+      timeout : 5000
     });
   },
 
   showProcessList: function (model, process) {
     //===== fix object process response   ======
-    var arrAvailableFieldsOfDocuments = process.responseHeader.availableFields;
-    var arrListProcesses = process.response.processes;
-    var arrListProcessOfDocuments = [];
-    if (process.response.processes && arrListProcesses.length > 0) {
+    if (!process || !process.response || !process.response.processes || process.response.processes.length == 0) {
+      this.setBodyWithHtml("<span> No process found</span>");
+      $.mobile.loading("hide");
+    }
+    else {
+      var arrAvailableFieldsOfDocuments = process.responseHeader.availableFields;
+      var arrListProcesses = process.response.processes;
+      var arrListProcessOfDocuments = [];
       for (var j = 0; j < arrListProcesses.length; j++) {
         var processOb = {};
         processOb.id = arrListProcesses[j].process_id;
@@ -93,9 +97,6 @@ window.ProcessListView = AbstractView.extend({
       }
       this.arrListProcessOfDocumetns = arrListProcessOfDocuments;
       this.setBodyWithHtml(this.appBody({processes: arrListProcessOfDocuments}));
-      $.mobile.loading("hide");
-    } else {
-      this.setBodyWithHtml("<span> No process found</span>");
       $.mobile.loading("hide");
     }
 
@@ -166,11 +167,11 @@ window.ProcessListView = AbstractView.extend({
 
   processCollapse: function () {
     $(".processHeader").attr('expand', 0);
-    $('.processDocuments').show("slow");
+    $('.processDocuments').hide("slow");
   },
   processExpand: function () {
     $(".processHeader").attr('expand', 1);
-    $('.processDocuments').hide("slow");
+    $('.processDocuments').show("slow");
   },
   processSorting: function () {
     alert("sorting");

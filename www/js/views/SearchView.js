@@ -120,7 +120,7 @@ window.SeachView = AbstractView.extend({
 
   clkChooseTypes: function (event) {
     event.preventDefault()
-    $(".process-document-types").popup("open", { transition: "pop" });
+    $(".pd-types").popup("open", { transition: "pop" });
   },
 
   clkSaveInfoSearch: function (event) {
@@ -213,16 +213,21 @@ window.SeachView = AbstractView.extend({
   },
 
   showProcessType : function(processType){
-    var processDocumentType = this.$(".process-document-types ul");
+    var processDocumentType = this.$(".pd-types div[data-role=collapsibleset]");
     processDocumentType.empty();
     var arrProcessTypes = processType.toJSON()["processTypes"];
     for(var iProcess = 0; iProcess < arrProcessTypes.length ; iProcess ++){
       var arrDocumentTypes = arrProcessTypes[iProcess]["documentTypes"];
-      processDocumentType.append('<li data-role="list-divider" role="heading" class="ui-li-divider ui-bar-b ui-first-child">'+arrProcessTypes[iProcess]["processType"]+'</li>');
+      var processEl = '<div data-role="collapsible" data-inset="false"><h2>'+arrProcessTypes[iProcess]["processType"]+'</h2>';
+      var documentEl = '<ul data-role="listview">';
+      // append process
       for(var iDocument = 0 ; iDocument < arrDocumentTypes.length ; iDocument++){
-        processDocumentType.append('<li><a href="#" class="ui-btn ui-checkbox-on ui-btn-icon-right">'+arrDocumentTypes[iDocument]+'</a></li>').trigger("create");
+        // append document
+        documentEl += '<li><a href="#" class="ui-btn ui-checkbox-on ui-btn-icon-right">'+arrDocumentTypes[iDocument]+'</a></li>';
       }
+      processDocumentType.append(processEl+documentEl+"</ul></div>");
     }
+    processDocumentType.trigger("create");
   },
 
   //------------------------- get Search Criteria ----------------------------------------
@@ -309,16 +314,7 @@ window.SeachView = AbstractView.extend({
     var thisScreen = this;
     $(document).one("pagecontainershow", function () {
       if (location.hash == "#search") {
-        $.datepicker._defaults.onAfterUpdate = null;
-        var datepicker__updateDatepicker = $.datepicker._updateDatepicker;
-        $.datepicker._updateDatepicker = function (inst) {
-          datepicker__updateDatepicker.call(this, inst);
 
-          var onAfterUpdate = this._get(inst, 'onAfterUpdate');
-          if (onAfterUpdate)
-            onAfterUpdate.apply((inst.input ? inst.input[0] : null),
-              [(inst.input ? inst.input.val() : ''), inst]);
-        }
         thisScreen.registerSelectItemInSavedSearch();
         $(".manager-criteria ul").html();
         thisScreen.registerSelectItemInPopupMenu();
@@ -327,11 +323,7 @@ window.SeachView = AbstractView.extend({
           action: "PROCESS_TYPES",
           mandant: "wackler",
           wt: "oxseed_json"
-        }, headers : {"Authorization": userModel.getAuthorization()}})
-        thisScreen.registerDatePicker("pi_eingangsdatum_date");
-        thisScreen.registerDatePicker("pi_process_lifecycle_start_date");
-        thisScreen.registerDatePicker("pi_process_lifecycle_date");
-        thisScreen.registerDatePicker("bescheinigung_date");
+        }, headers : {"Auth": userModel.getAuthorization()}})
       }
     })
 
@@ -339,7 +331,6 @@ window.SeachView = AbstractView.extend({
 
   registerSelectItemInPopupMenu: function () {
     // toggleClass ("ui-checkbox-off" or "ui-checkbox-on") when select type in popup
-
     $( ".process-document-types" ).bind({
       popupafteropen: function(event, ui) {
         $(".process-document-types").trigger("create");
@@ -352,98 +343,6 @@ window.SeachView = AbstractView.extend({
       popupafterclose: function () {
       }
     });
-  },
-
-  //----------------------------  Register event for component datepicker --------------------------------------
-  registerDatePicker: function (elementID) {
-    var cur = -1, prv = -1;
-    $('#' + elementID + ' input').attr("readonly", true);
-    $('#' + elementID + ' .' + elementID)
-      .datepicker({
-//          changeMonth: true,
-        changeYear: true,
-        showButtonPanel: true,
-
-        beforeShowDay: function (date, inst) {
-          return [true, ( (date.getTime() >= Math.min(prv, cur) && date.getTime() <= Math.max(prv, cur)) ? 'date-range-selected' : '')];
-        },
-
-        onSelect: function (dateText, inst) {
-          var d1, d2;
-
-          prv = cur;
-          cur = (new Date(inst.selectedYear, inst.selectedMonth, inst.selectedDay)).getTime();
-          if (prv == -1 || prv == cur) {
-            prv = cur;
-            $('#' + elementID + ' input').val(dateText + ' - *');
-          } else {
-            d1 = $.datepicker.formatDate('dd/mm/yy', new Date(Math.min(prv, cur)), {});
-            d2 = $.datepicker.formatDate('dd/mm/yy', new Date(Math.max(prv, cur)), {});
-            if (!d2) {
-              $('#' + elementID + ' input').val(d1 + ' - *');
-            } else {
-              $('#' + elementID + ' input').val(d1 + ' - ' + d2);
-            }
-
-          }
-        },
-
-        onAfterUpdate: function (inst) {
-          $('#' + elementID + ' div .ui-datepicker-buttonpane').html('<button type="button" class="ui-datepicker-close ui-state-default ui-priority-primary ui-corner-all" data-handler="hide" data-event="click">Done</button>')
-            .on('click', function () {
-              $('#' + elementID + ' .ui-datepicker').hide();
-//              $('#' + elementID + ' .ui-datepicker').css({visibility : "hidden"});
-              $(".ui-loader-background").hide();
-            });
-        }
-      }).css({
-        top : $(window).height()/2,
-        margin:"0px auto"
-      });
-//      .offset({top : $(window).height()/2,
-//        left : $(window).width()/2});
-//      .position({
-//        top : $(window).height()/2,
-//        left : $(window).width()/2,
-////        my: "left top",
-////        at: "left bottom",
-//        of: window
-//      });
-
-    this.$('#' + elementID + ' .ui-datepicker').hide();
-
-    this.$('#' + elementID + ' input').focusin(function () {
-      $(".hasDatepicker").datepicker('refresh');
-      var v = this.value,
-        d;
-
-      try {
-        if (v.indexOf(' - ') > -1) {
-          d = v.split(' - ');
-
-          prv = $.datepicker.parseDate('mm/dd/yy', d[0]).getTime();
-          cur = $.datepicker.parseDate('mm/dd/yy', d[1]).getTime();
-
-        } else if (v.length > 0) {
-          prv = cur = $.datepicker.parseDate('mm/dd/yy', v).getTime();
-        }
-      } catch (e) {
-        cur = prv = -1;
-      }
-
-      if (cur > -1)
-        $('#' + elementID + ' .ui-datepicker').datepicker('setDate', new Date(cur));
-
-      var arrDatePicker = $(".ui-datepicker");
-      arrDatePicker.each(function (item) {
-        $(this).hide();
-      });
-
-      $('#' + elementID + ' .ui-datepicker').datepicker('refresh').show();
-//      $('#' + elementID + ' .ui-datepicker').datepicker('refresh').css({visibility : "visible"});
-      $(".ui-loader-background").show();
-    });
-
   },
 
   //------------------------------- CONVERT DATE RANGE ----------------------------------------------

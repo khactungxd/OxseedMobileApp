@@ -7,12 +7,14 @@ $(document).bind("mobileinit", function () {
   $.mobile.defaultPageTransition = "slide";
 
   // Remove page from DOM when it's being replaced
-  $(document).bind("pageshow", function(event, ui){
-    if($(ui.prevPage).attr("id") == "login-screen")
+  $(document).bind("pageshow", function (event, ui) {
+    if ($(ui.prevPage).attr("id") == "login-screen")
       $(ui.prevPage).remove();
   });
 
-  $(document).bind("pagebeforeshow", 'div[data-role="page"]', function(event, ui){
+  $(document).bind("pagebeforeshow", 'div[data-role="page"]', function (event, ui) {
     $('div[data-role="page"]').trigger("create");
   })
+
+
 });

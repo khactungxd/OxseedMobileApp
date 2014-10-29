@@ -1,28 +1,10 @@
-/********************************datepicker*********************************/
-.date-range-selected > .ui-state-active,
-.date-range-selected > .ui-state-default {
-    background: none lightsteelblue !important;
-    /*background-color: ;*/
-}
-
-.ui-datepicker {
-    position: absolute;
-    z-index: 2100;
-}
-
-button.ui-datepicker-current {
-    display: none;
-}
-
-h2 {
+#ul-folder-tree h2 {
     margin: 0px !important;
 }
 
-li {
+#ul-folder-tree li {
     padding: 0px !important;
 }
-
-/**************************************end datepicker*************************/
 
 /*******************          Custom themes         **************************/
 
